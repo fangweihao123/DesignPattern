@@ -11,6 +11,9 @@
 class FlyWithWing:public FlyBehavior{
 public:
     FlyWithWing(){};
+    ~FlyWithWing(){
+        std::cout<<"~FlyWithWing() is called"<<std::endl;
+    };
     virtual void fly(){
         std::cout<<"flying!"<<std::endl;
     }

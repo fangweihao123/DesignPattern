@@ -14,8 +14,13 @@ private:
     FlyBehavior* fb_;
     QuakeBehavior* qb_;
 public:
-    Duck(){};
-    virtual ~Duck(){};
+    Duck(){
+        std::cout<<"create duck"<<std::endl;
+    };
+    virtual ~Duck(){
+        delete(fb_);
+        delete(qb_);
+    };
     void performFly();
     void performQuake();
     void swim();

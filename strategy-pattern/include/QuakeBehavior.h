@@ -5,10 +5,11 @@
 #ifndef LEE_QUAKEBEHAVIOR_H
 #define LEE_QUAKEBEHAVIOR_H
 
+#include <iostream>
+
 class QuakeBehavior{
 public:
-    QuakeBehavior(){}
-    virtual ~QuakeBehavior(){}
+    virtual ~QuakeBehavior() = 0;
     virtual void quake() = 0;
 };
 

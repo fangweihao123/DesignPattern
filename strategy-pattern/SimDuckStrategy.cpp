@@ -19,5 +19,6 @@ int main(){
     yellow_duck->performFly();
     rubber_duck->setFlyBehavior(new FlyWithRocket());
     rubber_duck->performFly();
+    delete(yellow_duck);
     return 0;
 }

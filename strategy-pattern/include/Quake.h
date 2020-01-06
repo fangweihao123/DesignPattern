@@ -11,6 +11,9 @@
 class Quake:public QuakeBehavior{
 public:
     Quake(){};
+    ~Quake(){
+        std::cout<<"~Quake() is called"<<std::endl;
+    }
     virtual void quake(){
         std::cout<<"quake"<<std::endl;
     }

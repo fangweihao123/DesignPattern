@@ -7,9 +7,9 @@
 
 class FlyBehavior{
 public:
-    FlyBehavior(){}
-    virtual ~FlyBehavior(){}
+    virtual ~FlyBehavior()=0;
     virtual void fly() = 0;
 };
+
 
 #endif //LEE_FLYBEHAVIOR_H
