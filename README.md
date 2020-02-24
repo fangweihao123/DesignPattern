@@ -10,6 +10,9 @@
 ![装饰者模式](https://user-images.githubusercontent.com/18373220/71892528-1c644980-3184-11ea-896d-bd586dcc1370.png)
 ### 4.工厂模式
 工厂方法模式定义了一个创建对象的接口，但由子类决定实例化的类是哪一个，工厂方法让类把实例化推迟到子类
-![装饰者模式](https://user-images.githubusercontent.com/18373220/74820154-7f78fc80-533c-11ea-82f5-5877279fc2a0.png)
+![工厂模式](https://user-images.githubusercontent.com/18373220/74820154-7f78fc80-533c-11ea-82f5-5877279fc2a0.png)
 ### 5.抽象工厂模式
 提供一个接口,用于创建相关或依赖对象的家族,而不需要明确指定具体类
+![抽象工厂方式](https://user-images.githubusercontent.com/18373220/75084641-5040d600-555c-11ea-9616-8de2cbfa0d2d.png)
+### 6.单例模式
+确保一个类只有一个实例，并提供一个全局访问点
